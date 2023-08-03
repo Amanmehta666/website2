@@ -223,6 +223,78 @@ nav a:hover {
     font-size: 16px; /* Adjust font size for better readability on mobile */
   }
 
-  /* Mobile-specific styles here */
-  /* Adjust padding, margins, and other styles as needed */
+  header {
+    text-align: center; /* Center the navigation links on mobile */
+  }
+
+  header ul {
+    flex-direction: column; /* Display navigation links in a column on mobile */
+  }
+
+  header li {
+    margin-bottom: 10px; /* Add spacing between navigation links on mobile */
+  }
+
+  .hero {
+    height: 300px; /* Adjust the height of the hero section on mobile */
+  }
+
+  .hero video {
+    object-fit: contain; /* Adjust the video size to fit within the hero container on mobile */
+  }
+
+  main {
+    padding: 20px; /* Reduce padding on mobile for better content visibility */
+  }
+
+  main h1 {
+    font-size: 24px; /* Adjust heading font size on mobile */
+  }
+
+  main p {
+    font-size: 18px; /* Adjust paragraph font size on mobile */
+  }
+
+  .btn {
+    font-size: 18px; /* Adjust button font size on mobile */
+    padding: 10px 20px; /* Adjust button padding on mobile */
+  }
+
+  #testimonials {
+    padding: 20px; /* Reduce padding on mobile for testimonials section */
+  }
+
+  .testimonial p {
+    font-size: 18px; /* Adjust testimonial text font size on mobile */
+  }
+
+  .testimonial .author {
+    font-size: 16px; /* Adjust testimonial author font size on mobile */
+  }
+
+  #employees {
+    padding: 20px; /* Reduce padding on mobile for employees section */
+  }
+
+  .employee {
+    width: 100%; /* Make employee cards take full width on mobile */
+  }
+
+  .employee img {
+    width: 150px; /* Adjust employee image size on mobile */
+    height: 150px;
+  }
+
+  .employee h3 {
+    font-size: 20px; /* Adjust employee name font size on mobile */
+  }
+
+  .employee p {
+    font-size: 16px; /* Adjust employee details font size on mobile */
+  }
+
+  /* New styles for Completed Projects section on mobile */
+  #completed-projects p {
+    font-size: 20px; /* Adjust Completed Projects text font size on mobile */
+  }
 }
